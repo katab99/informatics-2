@@ -1,0 +1,67 @@
+body{
+    font-family: Calibri;
+    background-color: #fafafa;
+    color: #4A5753;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    padding: 5px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #b6dbd1;
+}
+
+th {
+    background-color: #317563;
+    color: #fafafa;
+}
+
+a:link {
+    color: #4A5751;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #183326;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: #4A5751;
+}
+
+form{
+    margin: 20px;
+}
+
+input{
+    margin: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+#leftmenu{
+    
+    width: 150px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    float: left;
+    background-color: #b6dbd1;
+}
+
+#maincontent{
+    float: inline-start;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
